@@ -1,0 +1,12 @@
+*,
+*::after,
+*::before
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body{
+  box-sizing: border-box;
+  /* Aqui va el font family y el tamaño traten de usar rem :) */
+}
