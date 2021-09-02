@@ -8,5 +8,55 @@
 }
 body{
   box-sizing: border-box;
+  height: 100vh;
   /* Aqui va el font family y el tamaño traten de usar rem :) */
+}
+/* Provisional header stuff */
+header
+{
+  display: flex;
+  height: 80px;
+  background-color: #9b9b9b;
+}
+/* Angel css work */
+main
+{
+  height: 100%;
+  width: 100%;
+  top:80px;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.firstContent
+{
+  width: 100%;
+  transform: translateY(0px)translateZ(0px);
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.firstContent_mainStuff
+{
+  width: 1750px;
+  height: 100%;
+  position: relative;
+}
+.mainStuff_Text
+{
+  height: 30%;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+.TextSecond
+{
+  margin: 2px;
+  font-size: 60px;
+  font-weight: 600;
 }
