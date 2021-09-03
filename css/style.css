@@ -69,7 +69,7 @@ main
   width: 65%;
   display: flex;
   flex-direction: row;
-  margin-top: 48px;
+  margin-top: 38px;
   overflow: hidden;
 }
 .item
@@ -86,26 +86,26 @@ main
 .one
 {
   color: rgb(0, 118, 211);
-  animation: 24s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite One;
-  transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+  animation: 24s linear infinite One;
+  transition-timing-function: linear;
 }
 .two
 {
   color: rgb(97, 140, 123);
-  animation: 24s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite two;
-  transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+  animation: 24s linear infinite two;
+  transition-timing-function: linear;
 }
 .three
 {
   color: rgb(194, 139, 0);
-  animation: 24s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite three ;
-  transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+  animation: 24s linear infinite three ;
+  transition-timing-function: linear;
 }
 .four
 {
   color: rgb(64, 122, 87);
-  animation: 24s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite four;
-  transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+  animation: 24s linear infinite four;
+  transition-timing-function: linear;
 }
 @keyframes One {
   0%
