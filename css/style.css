@@ -86,20 +86,26 @@ main
 .one
 {
   color: rgb(0, 118, 211);
-  animation: 24s linear infinite One;
+  animation: 24s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite One;
+  transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 }
 .two
 {
   color: rgb(97, 140, 123);
-  animation: 24s linear infinite two;
+  animation: 24s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite two;
+  transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 }
-.tree
+.three
 {
   color: rgb(194, 139, 0);
+  animation: 24s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite three ;
+  transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 }
 .four
 {
   color: rgb(64, 122, 87);
+  animation: 24s cubic-bezier(0.785, 0.135, 0.150, 0.860) infinite four;
+  transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 }
 @keyframes One {
   0%
@@ -113,12 +119,12 @@ main
     opacity: 1
 
   }
-  16.5%
+  21.5%
   {
     transform: translateY(-40px);
     opacity: 1
   }
-  18.66%
+  23.66%
   {
     transform: translateY(-90px);
     opacity: 0;
@@ -135,22 +141,22 @@ main
     transform: translateY(0px);
     opacity: 0;
   }
-  17.5%
+  25%
   {
     transform: translateY(0px);
     opacity: 0;
   }
-  19.66%
+  27.16%
   {
     transform: translateY(-40px);
     opacity: 1;
   }
-  32.99%
+  46.5%
   {
     transform: translateY(-40px);
     opacity: 1;
   }
-  35.16%
+  48.66%
   {
     transform: translateY(-90px);
     opacity: 0;
@@ -158,6 +164,65 @@ main
   100%
   {
     transform: translateY(-80px);
+    opacity: 0;
+  }
+}
+@keyframes three {
+  0%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  50%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  52.16%
+  {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  71.5%
+  {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  73.66%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+  100%
+  {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+}
+@keyframes four {
+  0%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  75%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  77.16%
+  {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  96.5%
+  {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  100%
+  {
+    transform: translateY(-90px);
     opacity: 0;
   }
 }
