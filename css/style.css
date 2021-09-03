@@ -9,6 +9,8 @@
 body{
   box-sizing: border-box;
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(33, 25, 34) !important;
   /* Aqui va el font family y el tamaño traten de usar rem :) */
 }
 /* Provisional header stuff */
@@ -53,10 +55,109 @@ main
   align-items: center;
   flex-direction: column;
   display: flex;
+
 }
 .TextSecond
 {
   margin: 2px;
   font-size: 60px;
   font-weight: 600;
+}
+.TextSecond_Main
+{
+  height: 60px;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 48px;
+  overflow: hidden;
+}
+.item
+{
+    font-size: 60px;
+    margin: 0px;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    z-index: 0;
+}
+.one
+{
+  color: rgb(0, 118, 211);
+  animation: 24s linear infinite One;
+}
+.two
+{
+  color: rgb(97, 140, 123);
+  animation: 24s linear infinite two;
+}
+.tree
+{
+  color: rgb(194, 139, 0);
+}
+.four
+{
+  color: rgb(64, 122, 87);
+}
+@keyframes One {
+  0%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  2.16%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+
+  }
+  16.5%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  18.66%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+  100%
+  {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+}
+@keyframes two {
+  0%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  17.5%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  19.66%
+  {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  32.99%
+  {
+    transform: translateY(-40px);
+    opacity: 1;
+  }
+  35.16%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+  100%
+  {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
 }
