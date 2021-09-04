@@ -69,7 +69,7 @@ main
   width: 65%;
   display: flex;
   flex-direction: row;
-  margin-top: 38px;
+  margin-top: 48px;
   overflow: hidden;
 }
 .item
@@ -83,6 +83,38 @@ main
     left: 0px;
     z-index: 0;
 }
+.TextSecondSub
+{
+  margin-top: 4rem;
+}
+.subdisplay
+{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+ul li
+{
+  list-style: none;
+  padding: 0;
+}
+li
+{
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.dot
+{
+  background: rgb(225, 225, 225);
+    display: inline-block;
+    padding: 5px;
+    height: 10px;
+    border-radius: 50px;
+    margin: 6px;
+    outline: none;
+    border-style: none;
+}
+/* animations in general */
 .one
 {
   color: rgb(0, 118, 211);
