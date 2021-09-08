@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #343a40;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    max-width: 94%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px; 
+}
+
+.card-columns .card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.75rem; 
+} 
+
+@media (min-width: 600px) {
+
+    .card-columns {
+        column-count: 5;
+        column-gap: 1.25rem;
+        orphans: 1; 
+        widows: 1; 
+    }
+}
+
+
+/* Caracteristicas de las tarjetas */
+.card {
+    position: relative;
+    display: flex;   /* */
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 1rem; 
+}
+
+.card-title {
+    color: rgba(0, 0, 0, 0.0) 
+}
+
+
+/* Transparencia negra */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;
+    /*opacity: 0;*/
+    transition: .2s ease;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 30px; 
+}
+
+.more {
+    display: flex;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-20%, -20%); /**/
+}
+
+.card-pin:hover .overlay {
+    /*opacity: .5;*/
+    transition: ease .2s;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: zoom-in; 
+}
+
+.card-pin:hover .card-title {
+    color: rgba(255, 255, 255, 1);
+    width: 0.625em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 3em;
+    text-align: left;
+    font-size: 1.2em; 
+}
+
+.card-pin:hover .button-red {
+    font-weight: 600;
+    height: 1.2em;
+    padding: 0.625em 2.5em 1em 2.5em;
+    margin: 1em 1em 0.3em 0em;
+    border-radius: 2em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 0, 0, 1);
+    text-align: center;
+    display: inline-block;
+    margin-left: 7em;
+}
+
+.card-pin:hover .button-gray {
+    font-weight: 600;
+    padding: 0.3em 1em;
+    margin-left: 0.8em;
+    border-radius: 2em;
+    color:rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Imagen */
+.card-img {
+    width: 100%;
+    border-radius: 30px; 
+}
+
+/* Boton */
+.sup {
+    display: flex;
+ 
+}
+.button-red {
+    color: rgba(0, 0, 0, 0);
+}
+
+.button-gray {
+    color: rgba(0, 0, 0, 0)
+}
