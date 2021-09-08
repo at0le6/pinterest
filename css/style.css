@@ -178,25 +178,25 @@ li
 .one
 {
   color: rgb(0, 118, 211);
-  animation: 24s linear infinite One;
+  animation: 25s linear infinite One;
   transition-timing-function: linear;
 }
 .two
 {
   color: rgb(97, 140, 123);
-  animation: 24s linear infinite two;
+  animation: 25s linear infinite two;
   transition-timing-function: linear;
 }
 .three
 {
   color: rgb(194, 139, 0);
-  animation: 24s linear infinite three ;
+  animation: 25s linear infinite three ;
   transition-timing-function: linear;
 }
 .four
 {
   color: rgb(64, 122, 87);
-  animation: 24s linear infinite four;
+  animation: 25s linear infinite four;
   transition-timing-function: linear;
 }
 @keyframes One {
@@ -320,22 +320,22 @@ li
 }
 /* dots animations */
 .uno{
-  animation: 24s linear infinite uno;
+  animation: 25s linear infinite uno;
   transition-timing-function: linear;
 }
 .dos
 {
-  animation: 24s linear infinite dos;
+  animation: 25s linear infinite dos;
   transition-timing-function: linear;
 }
 .tres
 {
-  animation: 24s linear infinite tres;
+  animation: 25s linear infinite tres;
   transition-timing-function: linear;
 }
 .cuatro
 {
-  animation: 24s linear infinite cuatro;
+  animation: 25s linear infinite cuatro;
   transition-timing-function: linear;
 }
 @keyframes uno {
@@ -405,6 +405,387 @@ li
   100%
   {
     background-color:  rgb(225, 225, 225);
+  }
+}
+/* grid animations
+Fist grid animation */
+.ongle
+{
+  animation: 25s linear infinite ongle;
+  transition-timing-function: linear;
+}
+.deux
+{
+  animation: 25s linear infinite deux;
+  transition-timing-function: linear;
+}
+.trois
+{
+  animation: 25s linear infinite trois;
+  transition-timing-function: linear;
+}
+.quatre
+{
+  animation: 25s linear infinite quatre;
+  transition-timing-function: linear;
+}
+.cinq
+{
+  animation: 25s linear infinite cinq;
+  transition-timing-function: linear;
+}
+.six
+{
+  animation: 25s linear infinite six;
+  transition-timing-function: linear;
+}
+.sept
+{
+  animation: 25s linear infinite sept;
+  transition-timing-function: linear;
+}
+@keyframes ongle {
+  0%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  1.7%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  15%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  17%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes deux {
+  1.7%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  3.2%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  17%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  19%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes trois {
+  3.2%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  4.7%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  19%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  21%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes quatre {
+  4.7%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  6.2%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  21%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  23%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes cinq {
+  6.2%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  7.7%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  23%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  25%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes six {
+  7.7%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  9.2%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  25%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  27%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes sept {
+  9.2%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  10.7%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  27%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  28%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+/* Second grid animation */
+.un
+{
+  animation: 25s linear infinite un;
+  transition-timing-function: linear;
+}
+.due
+{
+  animation: 25s linear infinite due;
+  transition-timing-function: linear;
+}
+.tre
+{
+  animation: 25s linear infinite tre;
+  transition-timing-function: linear;
+}
+.quattro
+{
+  animation: 25s linear infinite quattro;
+  transition-timing-function: linear;
+}
+.cinque
+{
+  animation: 25s linear infinite cinque;
+  transition-timing-function: linear;
+}
+.sei
+{
+  animation: 25s linear infinite sei;
+  transition-timing-function: linear;
+}
+.sette
+{
+  animation: 25s linear infinite sette;
+  transition-timing-function: linear;
+}
+@keyframes un {
+  18%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  19.7%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  36%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  38%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes due {
+  19.9%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  21.4%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  38%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  40%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes tre {
+  21.4%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  23.9%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  40%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  42%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes quattro {
+  23.9%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  25.4%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  42%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  44%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes cinque {
+  25.4%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  27.9%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  44%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  46%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes sei {
+  27.9%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  29.4%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  46%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  48%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes sette {
+  29.4%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  31.9%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  48%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  50%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
   }
 }
 /* media queries */
