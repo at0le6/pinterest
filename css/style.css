@@ -82,7 +82,8 @@ main
     text-align: center;
     width: 100%;
     left: 0px;
-    z-index: 0;
+    opacity: 0;
+    z-index: 1;
 }
 .TextSecondSub
 {
@@ -178,26 +179,26 @@ li
 .one
 {
   color: rgb(0, 118, 211);
-  animation: 25s linear infinite One;
-  transition-timing-function: linear;
+  animation: 26s ease-out infinite One;
+  transition-timing-function: ease-out;
 }
 .two
 {
   color: rgb(97, 140, 123);
-  animation: 25s linear infinite two;
-  transition-timing-function: linear;
+  animation: 26s ease-out infinite two;
+  transition-timing-function: ease-out;
 }
 .three
 {
   color: rgb(194, 139, 0);
-  animation: 25s linear infinite three ;
-  transition-timing-function: linear;
+  animation: 26s ease-out infinite three ;
+  transition-timing-function: ease-out;
 }
 .four
 {
   color: rgb(64, 122, 87);
-  animation: 25s linear infinite four;
-  transition-timing-function: linear;
+  animation: 26s ease-out infinite four;
+  transition-timing-function: ease-out;
 }
 @keyframes One {
   0%
@@ -320,22 +321,22 @@ li
 }
 /* dots animations */
 .uno{
-  animation: 25s linear infinite uno;
+  animation: 26s linear infinite uno;
   transition-timing-function: linear;
 }
 .dos
 {
-  animation: 25s linear infinite dos;
+  animation: 26s linear infinite dos;
   transition-timing-function: linear;
 }
 .tres
 {
-  animation: 25s linear infinite tres;
+  animation: 26s linear infinite tres;
   transition-timing-function: linear;
 }
 .cuatro
 {
-  animation: 25s linear infinite cuatro;
+  animation: 26s linear infinite cuatro;
   transition-timing-function: linear;
 }
 @keyframes uno {
@@ -411,37 +412,37 @@ li
 Fist grid animation */
 .ongle
 {
-  animation: 25s linear infinite ongle;
+  animation: 26s linear infinite ongle;
   transition-timing-function: linear;
 }
 .deux
 {
-  animation: 25s linear infinite deux;
+  animation: 26s linear infinite deux;
   transition-timing-function: linear;
 }
 .trois
 {
-  animation: 25s linear infinite trois;
+  animation: 26s linear infinite trois;
   transition-timing-function: linear;
 }
 .quatre
 {
-  animation: 25s linear infinite quatre;
+  animation: 26s linear infinite quatre;
   transition-timing-function: linear;
 }
 .cinq
 {
-  animation: 25s linear infinite cinq;
+  animation: 26s linear infinite cinq;
   transition-timing-function: linear;
 }
 .six
 {
-  animation: 25s linear infinite six;
+  animation: 26s linear infinite six;
   transition-timing-function: linear;
 }
 .sept
 {
-  animation: 25s linear infinite sept;
+  animation: 26s linear infinite sept;
   transition-timing-function: linear;
 }
 @keyframes ongle {
@@ -601,37 +602,37 @@ Fist grid animation */
 /* Second grid animation */
 .un
 {
-  animation: 25s linear infinite un;
+  animation: 26s linear infinite un;
   transition-timing-function: linear;
 }
 .due
 {
-  animation: 25s linear infinite due;
+  animation: 26s linear infinite due;
   transition-timing-function: linear;
 }
 .tre
 {
-  animation: 25s linear infinite tre;
+  animation: 26s linear infinite tre;
   transition-timing-function: linear;
 }
 .quattro
 {
-  animation: 25s linear infinite quattro;
+  animation: 26s linear infinite quattro;
   transition-timing-function: linear;
 }
 .cinque
 {
-  animation: 25s linear infinite cinque;
+  animation: 26s linear infinite cinque;
   transition-timing-function: linear;
 }
 .sei
 {
-  animation: 25s linear infinite sei;
+  animation: 26s linear infinite sei;
   transition-timing-function: linear;
 }
 .sette
 {
-  animation: 25s linear infinite sette;
+  animation: 26s linear infinite sette;
   transition-timing-function: linear;
 }
 @keyframes un {
@@ -791,37 +792,37 @@ Fist grid animation */
 /* Thirth grid animation */
 .ceann
 {
-  animation: 25s linear infinite ceann;
+  animation: 26s linear infinite ceann;
   transition-timing-function: linear;
 }
 .a_do
 {
-  animation: 25s linear infinite a_do;
+  animation: 26s linear infinite a_do;
   transition-timing-function: linear;
 }
 .triur
 {
-  animation: 25s linear infinite triur;
+  animation: 26s linear infinite triur;
   transition-timing-function: linear;
 }
 .ceathrar
 {
-  animation: 25s linear infinite ceathrar;
+  animation: 26s linear infinite ceathrar;
   transition-timing-function: linear;
 }
 .cuig
 {
-  animation: 25s linear infinite cuig;
+  animation: 26s linear infinite cuig;
   transition-timing-function: linear;
 }
 .seisear
 {
-  animation: 25s linear infinite seisear;
+  animation: 26s linear infinite seisear;
   transition-timing-function: linear;
 }
 .seacht
 {
-  animation: 25s linear infinite seacht;
+  animation: 26s linear infinite seacht;
   transition-timing-function: linear;
 }
 @keyframes ceann {
@@ -852,7 +853,7 @@ Fist grid animation */
     transform: translateY(0px);
     opacity: 0;
   }
-  42.4%
+  43.4%
   {
     transform: translateY(-40px);
     opacity: 1
@@ -869,7 +870,7 @@ Fist grid animation */
   }
 }
 @keyframes triur {
-  42.4%
+  43.4%
   {
     transform: translateY(0px);
     opacity: 0;
@@ -891,12 +892,12 @@ Fist grid animation */
   }
 }
 @keyframes ceathrar {
-  44.9%
+  45.9%
   {
     transform: translateY(0px);
     opacity: 0;
   }
-  45.4%
+  47.4%
   {
     transform: translateY(-40px);
     opacity: 1
@@ -913,12 +914,12 @@ Fist grid animation */
   }
 }
 @keyframes cuig {
-  45.4%
+  47.4%
   {
     transform: translateY(0px);
     opacity: 0;
   }
-  47.9%
+  49.9%
   {
     transform: translateY(-40px);
     opacity: 1
@@ -935,12 +936,12 @@ Fist grid animation */
   }
 }
 @keyframes seisear {
-  47.9%
+  49.9%
   {
     transform: translateY(0px);
     opacity: 0;
   }
-  49.4%
+  51.4%
   {
     transform: translateY(-40px);
     opacity: 1
@@ -957,12 +958,12 @@ Fist grid animation */
   }
 }
 @keyframes seacht {
-  49.4%
+  51.4%
   {
     transform: translateY(0px);
     opacity: 0;
   }
-  51.9%
+  53.9%
   {
     transform: translateY(-40px);
     opacity: 1
@@ -973,6 +974,196 @@ Fist grid animation */
     opacity: 1
   }
   80%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+/* 4th grid animation */
+.ett
+{
+  animation: 26s linear infinite ett;
+  transition-timing-function: linear;
+}
+.tva
+{
+  animation: 26s linear infinite tva;
+  transition-timing-function: linear;
+}
+.trev
+{
+  animation: 26s linear infinite trev;
+  transition-timing-function: linear;
+}
+.fyra
+{
+  animation: 26s linear infinite fyra;
+  transition-timing-function: linear;
+}
+.fem
+{
+  animation: 26s linear infinite fem;
+  transition-timing-function: linear;
+}
+.sex
+{
+  animation: 26s linear infinite sex;
+  transition-timing-function: linear;
+}
+.sju
+{
+  animation: 26s linear infinite sju;
+  transition-timing-function: linear;
+}
+@keyframes ett {
+  70%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  72%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  86%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  88%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes tva {
+  72%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  73.4%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  88%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  90%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes trev {
+  73.4%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  74.9%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  90%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  92%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes fyra {
+  75.9%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  77.4%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  92%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  94%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes fem {
+  77.4%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  79.9%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  94%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  96%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes sex {
+  79.9%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  81.4%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  96%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  98%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes sju {
+  81.4%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  83.9%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  98%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  100%
   {
     transform: translateY(-90px);
     opacity: 0;
@@ -991,7 +1182,7 @@ Fist grid animation */
 @media screen and (min-width: 1200px){
   .mainStuff_Text
   {
-    margin-top: 7.5rem;
+    margin-top: 7rem;
   }
   .TextSecond
   {
