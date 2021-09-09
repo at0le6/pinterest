@@ -61,12 +61,12 @@ main
 .TextSecond
 {
   margin: 2px;
-  font-size: 5rem;;
+  font-size: 4.5rem;;
   font-weight: 600;
 }
 .TextSecond_Main
 {
-  height: 5rem;
+  height: 4.5rem;
   width: 65%;
   display: flex;
   flex-direction: row;
@@ -75,7 +75,7 @@ main
 }
 .item
 {
-    font-size: 5rem;
+    font-size: 3.7rem;
     margin: 0px;
     font-weight: 600;
     position: absolute;
@@ -86,7 +86,7 @@ main
 }
 .TextSecondSub
 {
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 .subdisplay
 {
@@ -788,5 +788,222 @@ Fist grid animation */
     opacity: 0;
   }
 }
+/* Thirth grid animation */
+.ceann
+{
+  animation: 25s linear infinite ceann;
+  transition-timing-function: linear;
+}
+.a_do
+{
+  animation: 25s linear infinite a_do;
+  transition-timing-function: linear;
+}
+.triur
+{
+  animation: 25s linear infinite triur;
+  transition-timing-function: linear;
+}
+.ceathrar
+{
+  animation: 25s linear infinite ceathrar;
+  transition-timing-function: linear;
+}
+.cuig
+{
+  animation: 25s linear infinite cuig;
+  transition-timing-function: linear;
+}
+.seisear
+{
+  animation: 25s linear infinite seisear;
+  transition-timing-function: linear;
+}
+.seacht
+{
+  animation: 25s linear infinite seacht;
+  transition-timing-function: linear;
+}
+@keyframes ceann {
+  39%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  41.7%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  66%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  68%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes a_do {
+  41.9%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  42.4%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  68%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  70%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes triur {
+  42.4%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  44.9%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  70%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  72%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes ceathrar {
+  44.9%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  45.4%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  72%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  74%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes cuig {
+  45.4%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  47.9%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  74%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  76%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes seisear {
+  47.9%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  49.4%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  76%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  78%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+@keyframes seacht {
+  49.4%
+  {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  51.9%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  78%
+  {
+    transform: translateY(-40px);
+    opacity: 1
+  }
+  80%
+  {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
 /* media queries */
+@media screen and (min-width: 480px){
+
+}
+@media screen and (min-width: 768px){
+
+}
+@media screen and (min-width: 1024px){
+
+}
+@media screen and (min-width: 1200px){
+  .mainStuff_Text
+  {
+    margin-top: 7.5rem;
+  }
+  .TextSecond
+  {
+    font-size: 4rem;
+  }
+  .item
+  {
+    font-size: 4rem;
+  }
+  .TextSecondSub
+  {
+    margin-top: 0rem;
+  }
+}
 /* pop ups */
