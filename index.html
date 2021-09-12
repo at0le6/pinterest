@@ -12,10 +12,33 @@
   <body>
     <!-- Norma work(Creacion de header) -->
     <header>
-      <nav>
-        <!-- link para el futuro trabajo de Ulises y alfonso-->
-        <a href="pinterest.html">El nav esta en construccion</a>
-        <h1>El navegador</h1>
+      <nav class="navbar navbar-expand-lg navbar-light mynav">
+        <div class="container-fluid">
+          <a class="navbar-brand h4 text-danger align-items-center" href="#">
+            <img src="./img/Pinterest-logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top justify-content-start">
+      Pinterest
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active h6" aria-current="page" href="https://about.pinterest.com/en">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active h6" aria-current="page" href="https://business.pinterest.com/">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active h6" aria-current="page" href="https://newsroom.pinterest.com/en">Blog</a>
+              </li>
+              <form class="container-fluid justify-content-start">
+                <button class="btn btn-danger rounded-pill h6 mynav-boton" type="button">Log in</button>
+                <button class="btn btn-light rounded-pill h6" type="button">Sign up</button>
+              </form>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
