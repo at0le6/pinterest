@@ -8,12 +8,16 @@
 }
 body{
   box-sizing: border-box;
-  height: 100vh;
   font-family: 'Poppins', sans-serif;
   color: rgb(33, 25, 34) !important;
-  overflow-y: hidden;
-  overscroll-behavior-y: none;
+
   /* Aqui va el font family y el tamaño traten de usar rem :) */
+}
+.index
+{
+    height: 100vh;
+    overflow-y: hidden;
+    overscroll-behavior-y: none;
 }
 /* Provisional header stuff */
 header
@@ -23,17 +27,24 @@ header
   background-color: #9b9b9b;
 }
 /* Angel css work */
-main
+.mainIndex
 {
   height: 100%;
   width: 100%;
+  flex-direction: row;
+}
+.mainPinterest
+{
+  width: 100%;
+}
+.main
+{
   top:80px;
   display: flex;
   position: absolute;
   overflow: hidden;
   align-content: center;
   justify-content: center;
-  flex-direction: row;
 }
 .firstContent
 {
@@ -1171,6 +1182,29 @@ Fist grid animation */
 }
 /* media queries */
 @media screen and (max-width: 400px){
+  /* ralf */
+  .card-columns {
+      column-count: 1;
+      orphans: 1;
+      widows: 1;
+  }
+  .card-columns .card
+  {
+    margin-bottom: .2rem;
+  }
+  .card-pin:hover .desaparecer {
+      display: none;
+  }
+  .sup
+  {
+    justify-content: flex-end !important;
+  }
+  .card-pin:hover .button-red
+  {
+    padding: 0.3rem 1rem !important;
+    margin-right: .5rem !important;
+  }
+  /* angel */
   .item
   {
     font-size: 2.2rem;
@@ -1211,6 +1245,29 @@ Fist grid animation */
   }
 }
 @media screen and (max-width: 530px) and (min-width: 401px){
+  /* ralf */
+  .card-columns {
+      column-count: 2;
+      orphans: 1;
+      widows: 1;
+  }
+  .card-columns .card
+  {
+    margin-bottom: .2rem;
+  }
+  .card-pin:hover .desaparecer {
+      display: none;
+  }
+  .sup
+  {
+    justify-content: flex-end !important;
+  }
+  .card-pin:hover .button-red
+  {
+    padding: 0.3rem 1rem !important;
+    margin-right: .5rem !important;
+  }
+  /* angel */
   .item
   {
     font-size: 2.5rem;
@@ -1247,6 +1304,29 @@ Fist grid animation */
   }
 }
 @media screen and (max-width: 780px) and (min-width: 531px){
+  /* ralf */
+  .card-columns {
+      column-count: 3;
+      orphans: 1;
+      widows: 1;
+  }
+  .card-columns .card
+  {
+    margin-bottom: .2rem;
+  }
+  .card-pin:hover .desaparecer {
+      display: none;
+  }
+  .sup
+  {
+    justify-content: flex-end !important;
+  }
+  .card-pin:hover .button-red
+  {
+    padding: 0.3rem 1rem !important;
+    margin-right: .5rem !important;
+  }
+  /*angel*/
   .mainStuff_Text
   {
     margin-top: 2rem;
@@ -1285,7 +1365,51 @@ Fist grid animation */
     font-size: 3.4rem;
   }
 }
+@media screen and (max-width: 1199px) and (min-width: 781px){
+  /* ralf */
+  .card-columns {
+      column-count: 4;
+      column-gap: 1.25rem;
+      orphans: 1;
+      widows: 1;
+  }
+  .card-pin:hover .desaparecer {
+      display: none;
+  }
+  .sup
+  {
+    justify-content: flex-end !important;
+  }
+  .card-pin:hover .button-red
+  {
+    padding: 0.3rem 1rem !important;
+    margin-right: .5rem !important;
+  }
+  /*Angel responsive*/
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px){
+  .card-pin:hover .desaparecer {
+      display: none;
+  }
+  .sup
+  {
+    justify-content: flex-end !important;
+  }
+  .card-pin:hover .button-red
+  {
+    padding: 0.3rem 1rem !important;
+    margin-right: .5rem !important;
+  }
+}
 @media screen and (min-width: 1200px){
+  /* ralf */
+  .card-columns {
+      column-count: 5;
+      column-gap: 1.25rem;
+      orphans: 1;
+      widows: 1;
+  }
+  /*Angel responsive*/
   .mainStuff_Text
   {
     margin-top: 7rem;
@@ -1303,4 +1427,136 @@ Fist grid animation */
     margin-top: 0rem;
   }
 }
-/* pop ups */
+/*---------------------------------------------------- alf work --------------------------------------------------------*/
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #343a40;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+    max-width: 94%;
+    padding-right: 1.1rem;
+    padding-left: 1.1rem;
+    margin-top: 2rem;
+    min-height: min-content;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+    justify-content: center;
+}
+
+.card-columns .card {
+    width: 100%;
+    max-height: max-content;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+}
+
+
+/* Caracteristicas de las tarjetas */
+.card {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 1rem;
+
+}
+
+.card-title {
+    color: rgba(0, 0, 0, 0.0)
+}
+
+
+/* Transparencia negra */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /*opacity: 0;*/
+    transition: .2s ease;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 30px;
+}
+
+.more {
+    display: flex;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0.7rem;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card-pin:hover .overlay {
+    /*opacity: .5;*/
+    transition: ease .2s;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: zoom-in;
+}
+
+.card-pin:hover .card-title {
+    color: rgba(255, 255, 255, 1);
+    width: 0.625em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 3em;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.card-pin:hover .button-red {
+    font-weight: 600;
+    padding: 0.625rem 2.5rem;
+    margin: 1rem 1rem 0.3rem 0rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 0, 0, 1);
+    text-align: center;
+}
+
+.card-pin:hover .button-gray {
+    font-weight: 600;
+    padding: 0.3em 1em;
+    margin-left: 0.8em;
+    border-radius: 2em;
+    color:rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-align: center;
+}
+/* Imagen */
+.card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+/* Boton */
+.sup {
+    display: flex;
+    justify-content: space-between;
+}
+.button-red {
+    color: rgba(0, 0, 0, 0);
+}
+
+.button-gray {
+    color: rgba(0, 0, 0, 0)
+}
